@@ -9,7 +9,7 @@ import React, { useState } from "react";
 import { Calendar, dateFnsLocalizer } from "react-big-calendar";
 import "react-big-calendar/lib/css/react-big-calendar.css";
 import DatePicker from "react-datepicker";
-import DatePicker from "react-date-picker";
+// import DatePicker from "react-date-picker";
 
 // import "/Calendermy.css"
 
@@ -44,7 +44,7 @@ const events = [
   },
 ];
 
-function Application() {
+function Datedata() {
    const [newEvent, setNewEvent] = useState({ title: "", start: "", end: "" });
    const [allEvents, setAllEvents] = useState(events);
 
@@ -89,4 +89,4 @@ function Application() {
      </div>
    );
 }
-export default Application;
+export default Datedata;
