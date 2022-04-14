@@ -1,0 +1,31 @@
+.passwordinp{
+    width: 20%;
+    height: 20%;
+    color: black;
+    
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+.emailinp{
+    width: 20%;
+    height: 40%;
+    color: black;
+    padding-bottom: 10px;
+    
+}
+.logbtn{
+    width: 20%;
+    height: 40%;
+    color: black;
+    background-color: rgb(7, 107, 122);
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+.loginDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 300px;
+    align-items: center;
+
+}
